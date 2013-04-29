@@ -6,6 +6,14 @@ What's that
 This reusable Django app can help you to create collages on your website
 for gallery or another entities. For example, I'm use it for applications.
 
+.. image:: https://raw.github.com/gotlium/django-collage/master/demo/screens/1.jpg
+.. image:: https://raw.github.com/gotlium/django-collage/master/demo/screens/2.jpg
+.. image:: https://raw.github.com/gotlium/django-collage/master/demo/screens/3.jpg
+.. image:: https://raw.github.com/gotlium/django-collage/master/demo/screens/4.jpg
+.. image:: https://raw.github.com/gotlium/django-collage/master/demo/screens/5.jpg
+.. image:: https://raw.github.com/gotlium/django-collage/master/demo/screens/6.jpg
+.. image:: https://raw.github.com/gotlium/django-collage/master/demo/screens/7.jpg
+
 
 Installation:
 -------------
