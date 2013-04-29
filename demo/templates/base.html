@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Django-collage Demo</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .content {
+      margin-right: auto;
+      margin-left: auto;
+      width: 540px;
+    }
+
+    .item {
+      clear: both;
+      width: 540px;
+      padding-top: 20px;
+      color: darkred;
+    }
+
+    .item div {
+      width: 540px;
+    }
+  </style>
+</head>
+<body>
+<div class="content">
+  {% block content %}{% endblock content %}
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% load collage %}
+{% load cache %}
+
+{% block content %}
+    {% for entity in entity_list %}
+    <div class="item">
+    <h1>{{ entity.name }}</h1>
+        {% get_collage for entity.get_images as images %}
+        <div>
+          {% for image in images %}
+            <a href="{{ image.src }}" style="{{ image.css }}" target="_blank">
+              <img src="{{ image.url }}">
+            </a>
+          {% endfor %}
+        </div>
+     </div>
+    {% endfor %}
+{% endblock content %}
