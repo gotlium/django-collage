@@ -51,17 +51,14 @@ class Collage(object):
                         self.cnt += 1
                         tCnt += 1
                     self.rowI.append([tCnt, b])
-                    self._scan()
-                    return
+                    return self._scan()
             else:
                 if i == (self.count - 1):
                     self.cnt += 1
                     tCnt += 1
                     b = -1
-
-                    self.rowI.append([tCnt, b])
-                    self._scan()
-                    return
+                self.rowI.append([tCnt, b])
+                return self._scan()
             if i == (self.count - 1):
                 self.rowI.append([tCnt, b])
 
