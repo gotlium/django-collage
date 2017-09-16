@@ -12,7 +12,7 @@ setup(
     url='http://github.com/gotlium/django-collage',
     packages=find_packages(exclude=['demo']),
     include_package_data=True,
-    install_requires=['setuptools', 'django', 'sorl-thumbnail', 'PIL'],
+    install_requires=['setuptools', 'django', 'sorl-thumbnail', 'Pillow'],
     zip_safe=False,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
